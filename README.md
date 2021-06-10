@@ -1,7 +1,7 @@
 # Tailwind CSS Breakpoints Inspector
-A Tailwind CSS component that shows the currently active responsive breakpoint.
+A Tailwind CSS plugin that shows the currently 'active' responsive breakpoint.
 
-<img src="screenshot.gif" width="534">
+<img src="screenshot.gif" width="100%">
 
 ## Install
 
@@ -32,7 +32,7 @@ No extra markup, no external ressources.
 
 The indicator is only present during development.
 
-Uner the hood we use svg for Tailwind logo and inspector render.
+Uner the hood we use svg for Tailwind logo and inspector render. 🤩
 
 ## Customization
 
@@ -96,6 +96,7 @@ module.exports = {
   ],
 }
 ```
+In this case we recommand to adjust the svg width with `theme.breakpointsInspector.width` setting.
 
 #### Ignore screens
 
@@ -115,3 +116,7 @@ module.exports = {
   ],
 }
 ```
+---
+### Ideas
+This plugin is inspired by
+[Jon Sugar gist](https://gist.github.com/jonsugar/6bce22bd7d3673294caad36046c2b7cb) and [Joren Van Hee plugin](https://github.com/jorenvanhee/tailwindcss-debug-screens)
