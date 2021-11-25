@@ -1,7 +1,7 @@
 # Tailwind CSS Breakpoints Inspector
 A Tailwind CSS plugin that shows the currently 'active' responsive breakpoint.
 
-<img src="screenshot.gif" width="100%">
+<img src="https://github.com/Hounddd/tailwindcss-breakpoints-inscpector/blob/962344e219947fdd65d972683effbb3f3d723e89/screenshot.gif" width="100%">
 
 ## Install
 
