@@ -1,7 +1,7 @@
 # Tailwind CSS Breakpoints Inspector
 A Tailwind CSS plugin that shows the currently 'active' responsive breakpoint.
 
-<img src="https://github.com/Hounddd/tailwindcss-breakpoints-inscpector/raw/master/screenshot.gif" width="100%">
+<img src="https://github.com/Hounddd/tailwindcss-breakpoints-inspector/raw/master/screenshot.gif" width="100%">
 
 ## Install
 
@@ -10,7 +10,7 @@ Requires **Tailwind v2.0** or higher but it should work for **Tailwind v1.0** to
 1. Install the plugin:
 
 ```bash
-npm install tailwindcss-breakpoints-inscpector --save-dev
+npm install tailwindcss-breakpoints-inspector --save-dev
 ```
 
 2. Add it to your `tailwind.config.js` file:
@@ -20,7 +20,7 @@ npm install tailwindcss-breakpoints-inscpector --save-dev
 module.exports = {
   //...
   plugins: [
-    require('tailwindcss-breakpoints-inscpector'),
+    require('tailwindcss-breakpoints-inspector'),
   ]
 }
 ```
@@ -30,7 +30,7 @@ module.exports = {
 Just run build tools and voila!
 No extra markup, no external ressources.
 
-The indicator is only present during development.
+**Indicator is only visible during development.**
 
 Uner the hood we use svg for Tailwind logo and inspector render. 🤩
 
@@ -52,7 +52,7 @@ module.exports = {
     },
   },
   plugins: [
-    require('tailwindcss-breakpoints-inscpector'),
+    require('tailwindcss-breakpoints-inspector'),
   ],
 }
 ```
@@ -74,7 +74,7 @@ module.exports = {
     },
   },
   plugins: [
-    require('tailwindcss-breakpoints-inscpector'),
+    require('tailwindcss-breakpoints-inspector'),
   ],
 }
 ```
@@ -92,7 +92,7 @@ module.exports = {
     },
   },
   plugins: [
-    require('tailwindcss-breakpoints-inscpector'),
+    require('tailwindcss-breakpoints-inspector'),
   ],
 }
 ```
@@ -112,7 +112,7 @@ module.exports = {
     },
   },
   plugins: [
-    require('tailwindcss-breakpoints-inscpector'),
+    require('tailwindcss-breakpoints-inspector'),
   ],
 }
 ```
